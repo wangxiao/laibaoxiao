@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px auto;
+    height: 500px;
+}
+
+h1 {
+    margin: 10px auto;
+}
+
+table {
+    tr {
+        th, td {
+            border-bottom: 1px solid #ddd;
+        }
+    }
+}
+
+.lc-login {
+    padding-top: 20px;
+    .logo {
+        width: 300px;
+        font-size: 60px;
+        font-weight: 500;
+        margin: 0px auto;
+        a {
+            color: #2C97E8;
+            text-decoration: none;
+        }
+    }
+    h1 {
+        text-align: center;
+    }
+    .form {
+        margin: 0px auto;
+        width: 720px;
+        .add-item-btn {
+            width: 45px;
+            height: 45px;
+            margin: 0px auto;
+        }
+        .note {
+            margin: 0px auto;
+        }
+        .login-btn {
+            margin-top: 30px;
+        }
+    }
+}
+
+.lc-work {
+    margin: 0px auto;
+    width: 860px;
+    text-align: center;
+    position: relative;
+    .title {
+
+    }
+    .subhead {
+        margin-bottom: 5px;
+        p {
+            display: inline-block;
+            margin: 0px 13px;
+        }
+    }
+    .table {
+        tr {
+            th, td {
+                padding-left: 45px;
+            }
+            td {
+                text-align: left;
+            }
+            .abstract {
+                vertical-align: inherit;
+            }
+        }
+    }
+    .line {
+        position: absolute;
+        top: 13cm;
+        width: 860px;
+        height: 14cm;
+        border: 1px dashed #888;
+    }
+}
+
+md-input-container {
+    padding-bottom: 0px;
+}
+

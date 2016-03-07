@@ -1,0 +1,26 @@
+{
+  "browser": true,
+  "esnext": true,
+  "bitwise": true,
+  "camelcase": false,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": false,
+  "newcap": true,
+  "noarg": true,
+  "quotmark": "single",
+  "undef": true,
+  "unused": false,
+  "strict": false,
+  "esnext": true,
+  "node": true,
+  "globals": {
+    "$": true,
+    "R": true,
+    "C": true,
+    "Vue": true
+  }
+}
+
