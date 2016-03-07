@@ -63,7 +63,7 @@ function ($scope, storageSer, dataSer, $location, $mdDialog) {
         $mdDialog.show(
             $mdDialog.alert()
                 .title('欢迎使用')
-                .content('首次使用前，麻烦您确认已经配置好打印机。不知道如何配置，可以找教练。')
+                .content('首次使用前，麻烦您确认已经配置好打印机。不知道如何配置，可以找负责行政的同事。')
                 .ok('知道了')
         );
         storageSer.item('dialogFlag', true);
@@ -73,8 +73,8 @@ function ($scope, storageSer, dataSer, $location, $mdDialog) {
         if (!noteTipShow) {
             $mdDialog.show(
                 $mdDialog.alert()
-                    .title('边边姐说')
-                    .content('「备注」这项不能瞎写，是给特殊情况准备的，比如招待费明细之类的。一般情况不需要，如果需要填写找边边姐确认，否则可能导致报销单无效。')
+                    .title('友情提醒')
+                    .content('「备注」这项不能瞎写，是给特殊情况准备的，比如招待费明细之类的。一般情况不需要，如果需要填写找负责财务的同事确认，否则可能导致报销单无效。')
                     .ok('知道了')
             );
             noteTipShow = true;

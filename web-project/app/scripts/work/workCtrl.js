@@ -1,6 +1,6 @@
 /**
  * @author wangxiao
- * 
+ *
  * 每位工程师都有保持代码优雅的义务
  * Each engineer has a duty to keep the code elegant
  */
@@ -39,7 +39,7 @@ function ($scope, storageSer, $location, $timeout, dataSer, $window, $mdDialog) 
             d = '0' + d;
         }
         $scope.print.day = d;
-        
+
         // 总金额
         $scope.print.countMoney = 0;
         $scope.print.countNum = 0;
@@ -111,7 +111,7 @@ function ($scope, storageSer, $location, $timeout, dataSer, $window, $mdDialog) 
         $mdDialog.show(
             $mdDialog.alert()
                 .title('友情提醒')
-                .content('打印时，请去掉「页眉与页脚」选项，不然边边姐会觉得特别难看。')
+                .content('打印时，请去掉「页眉与页脚」选项，不然打印出来的效果特别难看。')
                 .ok('知道了')
         );
         storageSer.item('printDialogFlag', true);
